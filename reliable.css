@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card{
+    border: 3px solid whitesmoke;
+    padding: 2em;
+    margin: 12px 0px;
+    border-radius: 10px;
+    
+}
+.card > p{
+    line-height: 25px;
+    padding: 10px 0px 30px;
+    
+}
+.card_1{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    grid-area: superi;
+}
+.card_2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    grid-area: team;
+}
+
+.card_3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    grid-area: karma;
+}
+.card_4{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    grid-area: cal;
+}
+.script{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 23px;
+}
+@media (min-width: 1025px){
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: repeat(8, 100px);
+        grid-template-areas:
+                            ". team ."
+                            ". team ."
+                            "superi team cal"
+                            "superi karma cal"
+                            "superi karma cal"
+                            ". karma .";
+        column-gap: 30px;
+    }
+    .script{
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
