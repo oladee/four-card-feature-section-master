@@ -10,7 +10,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Links](#links)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -62,10 +61,6 @@ Users should be able to:
 ### Continued development
 
 This project tested my ability to be able to use css grid to be able to set a responsive row, column design for the large screen sze view, although starting at first i wasn't sure about how to go about it, it all became clearer with each new construct, i still look forward to learning more on css grid and its complexities, due to how much of a powerful tool it is.
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
